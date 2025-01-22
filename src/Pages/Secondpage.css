@@ -1,0 +1,32 @@
+.secondPage{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg{
+    height: 60vh;
+    box-shadow: 5px 5px 5px;
+}
+
+.imagePr{
+    padding-bottom: 20px;
+}
+
+.myInfo p{
+    font-family: 'CustomFont';
+}
+
+.myInfo button{
+    font-family: 'CustomFont';
+    height: 7vh;
+    width: 7vw;
+}

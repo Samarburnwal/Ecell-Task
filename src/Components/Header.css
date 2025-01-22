@@ -1,0 +1,38 @@
+.header *{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 2px 5px rgb(69, 69, 69);
+}
+
+.leftHeader{
+    width: 80%;
+}
+
+.rightHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+
+.rightHeader p{
+    color: black;
+}
+
+@media (max-width : 850px) {
+    .rightHeader{
+        margin-right: 2vh;
+        gap: 4vh;
+    }
+
+    .rightHeader p{
+        font-size: 2.4vh;
+        letter-spacing: 2px;
+    }
+}
