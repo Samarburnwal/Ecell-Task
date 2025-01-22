@@ -1,27 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import Ecell_logo from '../assets/images/ecellLogo.jpeg';
 
-
 const Home = () => {
-    const images = [
-        ,
-        'image2.jpg',
-        'image3.jpg'
-    ];
-    
-    const [currentImage, setCurrentImage] = useState(0);
-    
-    useEffect(() => {
-        const changeBackground = () => {
-          setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
-        };
-    
-        const interval = setInterval(changeBackground, 3000);
-    
-        return () => clearInterval(interval);
-    }, [images.length]);
-
     let seq = [];
     const changeColor = (id,color)=>{
         const smallGr = document.querySelector(`.smallGrids${id}`);
@@ -33,10 +14,11 @@ const Home = () => {
         const smallGr = document.querySelector(`.smallGrids${id}`);
         smallGr.style.backgroundColor = color;
     }
-    const lastB = ()=>{
-        if(seq.length > 0){
+    const lastB = async ()=>{
+        while(seq.length > 0){
             changeColor1(seq[seq.length-1],'#00407A');
             seq.pop();
+            await sleep(1000);
         }
     }
 

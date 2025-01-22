@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2vw;
 }
 
 .myInfo{
@@ -23,10 +24,26 @@
 
 .myInfo p{
     font-family: 'CustomFont';
+    font-size:xx-large;
+    font-weight: 600;
 }
 
 .myInfo button{
     font-family: 'CustomFont';
     height: 7vh;
-    width: 7vw;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: red;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.soldier{
+    width: 25vw;
+    height: 90vh;
+}
+
+.soldier img{
+    height: 80%;
+    width: 90%;
 }
