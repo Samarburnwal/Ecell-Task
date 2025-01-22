@@ -28,7 +28,8 @@ const Secondpage = () => {
     <>
         <div className='secondPage'>
             <div className="soldier firstSoldier">
-                <img className='' src={firstsoldier} alt="" />
+                <img className='sold' src={middleoldier} alt="" />
+                <img className='soldf' src={firstsoldier} alt="" />
             </div>
             <div className="myInfo">
                 <div className="imagePr"><img className='profileImg' src={profileImg} alt="" /></div>
@@ -37,7 +38,8 @@ const Secondpage = () => {
                 <button onClick={handleRedirect}>Lets Play</button>
             </div>
             <div className="soldier secondSoldier">
-                <img src={lastsoldier} alt="" />
+                <img className='sold' src={middleoldier} alt="" />
+                <img className='soldl' src={lastsoldier} alt="" />
             </div>
         </div>
     </>

@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
+    overflow: hidden;
 }
 
 .myInfo{
@@ -46,4 +47,21 @@
 .soldier img{
     height: 80%;
     width: 90%;
+    margin-bottom: 20vh;
+}
+.sold{
+    transition: all 0.3s ease-in-out;
+}
+.sold:hover{
+    display: none;
+}
+
+@media (max-width:800px) {
+    .sold,.soldf,.soldl{
+        display: none;
+    }
+
+    .myInfo button{
+        width: 20vh;
+    }
 }
