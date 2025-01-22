@@ -8,6 +8,7 @@ This is a simple React application built with Vite.
 - Functional components with hooks
 - Styled with CSS Modules / Styled Components
 - Responsive Pages
+- Based in Squid Games Theme
 
 ## Getting Started
 
