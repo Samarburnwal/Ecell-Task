@@ -1,14 +1,11 @@
 {
-  "homepage": "https//:SamarBurnwal.github.io/Ecell-task",
   "name": "ecellfrontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
     "build": "vite build",
-    "deploy":"gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
