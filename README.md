@@ -23,6 +23,7 @@ Ensure you have the following software installed:
 
 1. Clone the repository:
 
+
    ```bash
    git clone https://github.com/your-username/your-react-project.git](https://github.com/Samarburnwal/Ecell-Task.git
 
@@ -33,3 +34,7 @@ Ensure you have the following software installed:
 ![Screenshot 2025-01-23 124914](https://github.com/user-attachments/assets/9c56efad-8a62-4e41-b4ed-47064e5f9c69)
 ![Screenshot 2025-01-23 125014](https://github.com/user-attachments/assets/ad0b594d-3550-4937-a870-45ecf82253be)
 ![Screenshot 2025-01-23 125029](https://github.com/user-attachments/assets/1c1b2bf1-4e8a-45fe-9b9d-c5f1598f0fd5)
+![Screenshot 2025-01-25 112353](https://github.com/user-attachments/assets/e67cf036-9a39-44b3-882d-885d14c402cd)
+![Screenshot 2025-01-25 112556](https://github.com/user-attachments/assets/40b7ef26-be0b-41ed-b79d-0abaa60edc43)
+![Screenshot 2025-01-25 112732](https://github.com/user-attachments/assets/8b892c24-d782-4946-bfb4-e53123005717)
+
